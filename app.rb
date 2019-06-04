@@ -21,7 +21,7 @@ class App < Sinatra::Base
   end
   
   get'/:operation/:number1/:number2' do
-    erb :operation_numer1_number2
+    erb :operation_number1_number2
   end
   
 
